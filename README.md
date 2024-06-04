@@ -1,3 +1,8 @@
+# Análisis de Expresión Diferencial
+
+### Valentina Janet Arias Ojeda
+
+### * Clase Transcriptómica*
 En este análisis de expresión diferencial (DEA, por sus siglas en inglés) del transcriptoma de ratones con Alzheimer (modelo 5xFAD) y ratones sanos (WT), centrado en el desarrollo del hipotálamo se realiza con el propósito de identificar cambios en los niveles de expresión de genes entre diferentes condiciones experimentales.
 
 Para este propósito, se emplearon dos tipos de datos transcriptómicos: secuenciación de RNA (RNAseq) y microRNAs. Las lecturas obtenidas de RNAseq fueron alineadas utilizando HISAT2 y Bowtie1, con HISAT2 mostrando una mayor eficiencia de alineamiento. En cuanto a los microRNAs, después de una necesaria limpieza de las lecturas debido a su baja calidad inicial, se utilizó Bowtie1. Posteriormente, se realizó la asignación de las lecturas a características genómicas (genes) mediante feature counts.
